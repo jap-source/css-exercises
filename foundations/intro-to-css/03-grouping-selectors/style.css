@@ -1,13 +1,14 @@
-#blackbg-whitetxt {
+.regular {
     background-color: black;
     color: white;
 }
 
-#yellow-background {
+.pops{
     background-color: yellow;
 }
 
-.font-settings {
+.regular,
+.pops {
     font-size: 28px;
     font-family: 'Helvetica', 'Times New Roman', 'sans-serif'
 }
