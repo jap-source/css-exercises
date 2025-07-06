@@ -1,0 +1,13 @@
+#blackbg-whitetxt {
+    background-color: black;
+    color: white;
+}
+
+#yellow-background {
+    background-color: yellow;
+}
+
+.font-settings {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif'
+}
