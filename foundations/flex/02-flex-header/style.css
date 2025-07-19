@@ -1,6 +1,10 @@
 .header  {
-  font-family: monospace;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
   background: papayawhip;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo {
@@ -8,18 +12,38 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  padding: 8px 32px;
+  margin: 10px 0px 10px 0px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.left-links ul {
+  margin: 27px 0px 25px -32px;
+}
+
+.left-links li {
+  margin-right: 15px;
+}
+
+.right-links ul {
+  margin: 27px -7px 25px 0px;
+}
+
+.right-links li {
+  margin-right: 15px;
 }
 
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
+  padding: 10px 8px 8px 8px;
   /* this removes the line under the links */
   text-decoration: none;
 }
